@@ -15,16 +15,6 @@ Aplikasi desktop sederhana untuk mengelola daftar produk toko, dibuat dengan **J
   - keterangan jumlah data yang sedang tampil.
 - **Validasi input**: nama dan kategori wajib diisi, harga harus bilangan bulat lebih dari nol.
 
-## Teknologi
-
-| Komponen | Versi |
-|---|---|
-| Java | 17 |
-| JavaFX (`javafx-controls`, `javafx-fxml`) | 21 |
-| Maven | 3.x |
-| `javafx-maven-plugin` | 0.0.8 |
-
-> `pom.xml` juga mencantumkan dependensi `mysql-connector-java` 8.0.33, tetapi belum dipakai oleh kode. Data produk saat ini hanya disimpan di memori.
 
 ## Struktur Proyek
 
@@ -89,3 +79,9 @@ Kelas utama: `kelas.MainApp`. Aplikasi pertama kali terbuka di halaman **Tambah 
 - Aplikasi tidak menyalin gambar ke dalam proyek. Aplikasi hanya mengingat lokasi file gambar selama berjalan, jadi gambar tidak muncul jika file dipindah atau dihapus saat aplikasi masih terbuka.
 - Gambar hanya ditampilkan di halaman detail, belum di tabel daftar.
 - Nomor kode produk terus bertambah dan tidak dipakai ulang, meskipun produk sebelumnya sudah dihapus.
+  
+## Screenshot program
+<img width="643" height="488" alt="image" src="https://github.com/user-attachments/assets/42226297-f664-4457-8f47-8008b6f17d62" />
+<img width="671" height="529" alt="image" src="https://github.com/user-attachments/assets/588c3e0d-d0ab-4ecc-82e5-c5253ac91337" />
+<img width="668" height="524" alt="image" src="https://github.com/user-attachments/assets/c9ae7c18-bf41-4e4d-a888-4a3ddfc2c5d0" />
+
