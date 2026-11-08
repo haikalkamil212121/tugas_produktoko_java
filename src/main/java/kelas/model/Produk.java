@@ -6,6 +6,7 @@ public class Produk {
     private final String nama;
     private final String kategori;
     private final int harga;
+    private String gambar; // URI file gambar, boleh kosong
 
     public Produk(String kode, String nama, String kategori, int harga) {
         if (kode == null || kode.isBlank()) {
@@ -40,5 +41,13 @@ public class Produk {
 
     public int getHarga() {
         return harga;
+    }
+
+    public String getGambar() {
+        return gambar;
+    }
+
+    public void setGambar(String gambar) {
+        this.gambar = gambar;
     }
 }

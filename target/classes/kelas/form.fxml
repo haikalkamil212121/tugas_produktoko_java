@@ -22,6 +22,9 @@
                         <Label text="Makanan • Minuman" styleClass="muted" wrapText="true"/>
                         <Label text="Harga produk"/>
                         <TextField fx:id="jumlahField" promptText="Contoh: 15000"/>
+                        <Label text="Gambar produk"/>
+                        <Button text="Pilih Gambar" onAction="#pilihGambar"/>
+                        <Label fx:id="gambarLabel" text="Belum ada gambar dipilih" styleClass="muted" wrapText="true"/>
                         <Button text="Simpan dan Lihat Detail" onAction="#simpan" styleClass="button-primary" maxWidth="Infinity"/>
                         <Label fx:id="pesanLabel" wrapText="true" styleClass="error"/>
                     </VBox>

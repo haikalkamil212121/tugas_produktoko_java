@@ -17,7 +17,7 @@
                 <Button text="Tambah" onAction="#tambah"
                         styleClass="button-primary"/>
                 <Button text="Lihat Detail" onAction="#detail"/>
-                <Button text="Hapus" onAction="#hapus"/>
+                <Button text="Hapus" onAction="#hapus" styleClass="button-danger"/>
                 <CheckBox fx:id="jumlahCheck" text="Harga" selected="true"
                           onAction="#ubahTampilanJumlah"/>
             </FlowPane>

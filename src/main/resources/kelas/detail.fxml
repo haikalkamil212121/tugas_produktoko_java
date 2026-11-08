@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 <BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kelas.controller.DetailController" stylesheets="@styles/app.css">
     <top>
@@ -14,6 +15,7 @@
             <content>
                 <VBox styleClass="page" spacing="16">
                     <VBox styleClass="card" spacing="10">
+                        <ImageView fx:id="gambarView" fitWidth="220" preserveRatio="true" styleClass="gambar"/>
                         <Label text="Kode" styleClass="muted"/>
                         <Label fx:id="kodeLabel" styleClass="subtitle"/>
                         <Label text="Nama produk" styleClass="muted"/>
