@@ -1,0 +1,21 @@
+target/
+*.class
+
+# Log files
+*.log
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-mvn/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath

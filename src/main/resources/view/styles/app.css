@@ -1,0 +1,45 @@
+.root {
+    -fx-font-family: "SansSerif";
+    -fx-font-size: 14px;
+    -fx-background-color: #f4f7fb;
+}
+.header {
+    -fx-padding: 20 24;
+    -fx-background-color: white;
+}
+.title {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #18334d;
+}
+.muted {
+    -fx-text-fill: #64748b;
+    -fx-font-size: 12px;
+}
+.text-field, .combo-box {
+    -fx-padding: 7;
+    -fx-background-radius: 7;
+}
+.button-primary {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-padding: 10 24;
+    -fx-background-radius: 8;
+}
+.button-primary:hover {
+    -fx-background-color: #1d4ed8;
+}
+.katalog {
+    -fx-padding: 20 24;
+}
+.kartu-produk {
+    -fx-background-color: white;
+    -fx-background-radius: 12;
+    -fx-padding: 16;
+}
+.nama-produk {
+    -fx-font-weight: bold;
+}
+.scroll-pane, .scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
